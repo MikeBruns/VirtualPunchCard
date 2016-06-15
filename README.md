@@ -1,8 +1,8 @@
 # VirtualPunchCard
 
 Login page
-	Ø Checks db for authentication
-	Ø Grants access or prompts error in credentials
+	Checks db for authentication
+	 Grants access or prompts error in credentials
 	
 User window to enter hours
 	Ø Date(s) of work 
