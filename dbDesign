@@ -1,0 +1,3 @@
+emp (empID int, firstName string, lastName, string, paygrade int, positionID int);
+position (positionID int, positionDesc string);
+login (loginID string, passwordID string, )
