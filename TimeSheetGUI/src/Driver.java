@@ -64,6 +64,7 @@ public class Driver extends JFrame{
 			String uPassInp = password.getText();     // TODO work on switching to .getPassword()
 			
 			// TODO = call SQL function to retrieve user info
+			//validLogin(uNameInp, uPassInp);
 			
 			if(uNameInp.equals("admin")){
 				uName = true;
@@ -96,4 +97,62 @@ public class Driver extends JFrame{
 		}); // end loginBtn handling
 		
 	}
+	
+	boolean validLogin(string unInp, string upInp){
+	
+		try {
+	
+	        //Identify the driver to use
+	        Class.forName(nameOfJdbcOdbcDriver);
+	
+	        //Attempt a connection to database...
+	        Connection myConnectionRequest =
+	                DriverManager.getConnection(
+	                        dataBaseNameDSN, userName, passwordForUser);
+	
+	        //Create a statement object, use its method to execute query
+	        Statement  myStatementObject =
+	                myConnectionRequest.createStatement();
+	
+	        //Use statement object method to execute a query.
+	        //Hold results in a resutl set...like a cursor
+	        ResultSet myResultTuples = myStatementObject.executeQuery
+	                                        (queryToBeExecuted);                 
+	
+	        //Call metadata to get the number of attributes
+	        myResultTuplesMetaData = myResultTuples.getMetaData();
+	        int numberOfAttributes =
+	                myResultTuplesMetaData.getColumnCount();
+	        System.out.println(Integer.toString(numberOfAttributes));
+	
+	
+	
+			string SQLstatement;
+			SQLstatment = "SELECT loginID, passwordID " +
+						  "FROM login "					+
+						  "WHERE loginID = "  +  unInp 	+ 
+						  "AND passwordID = " +  upInp;
+						  
+			if(numTuples != 1)
+				return false;
+			
+			while(myResultTuples.next()){
+				string    loginID = myResultTuples.getString("loginID");
+				string passwordID = myResultTuples.getString("passwordID");
+			}
+			
+			if(loginID.equals(unInp) && passwordID.equals(upInp))
+					return true;
+			
+		} // end of try block
+		
+		//handle exceptions 
+		catch (SQLException sqlError) {
+		System.out.println("Unexpected exception : " +
+				sqlError.toString() + ", sqlstate = " +
+				sqlError.getSQLState());
+		sqlError.printStackTrace();
+		}
+
+	} // End of validLogin()
 }
