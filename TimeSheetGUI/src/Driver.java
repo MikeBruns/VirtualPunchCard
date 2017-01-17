@@ -46,6 +46,9 @@ public class Driver extends JFrame{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		setVisible(true);
+
+		// Allows login via the "Enter" key
+		panel.getRootPane().setDefaultButton(loginBtn);
 		actionlogin();
 
 	} // End of Driver()
