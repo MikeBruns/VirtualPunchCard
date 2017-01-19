@@ -1,5 +1,38 @@
 # VirtualPunchCard
 
+A Java application that allows users to easily manage work hours,
+and managers to proctor employees work schedules.
+
+<b>Functionalites Include:</b>
+<ul>
+<li>Enter work hours</li>
+<li>Track work hours</li> 
+<li>Calculate salaries</li>
+<li>Request time off</li>
+<li>Manage users (Admin)</li>
+</ul>
+<br/>
+
+<b>Dependencies</b><hr/>
+<ul>
+<li>Java 8</li>
+<li>sqlite3</li>
+<li>sqlite 3.16 library or greater</li>
+</ul>
+<br/>
+<b>How to install</b><hr/>
+<ol>
+<li>Install dependencies stated above</li>
+<li>Import project into choosen IDE as a Java project</li>
+</ol>
+
+
+<br/><br/>
+
+
+
+<b>Project Flow (in the works)</b>
+<hr/>
 Login page
 	
 	> Checks db for authentication
