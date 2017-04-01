@@ -20,12 +20,34 @@ and managers to proctor employees work schedules.
 <li>sqlite 3.16 library or greater</li>
 </ul>
 <br/>
-<b>How to install</b><hr/>
-<ol>
-<li>Install dependencies stated above</li>
-<li>Import project into choosen IDE as a Java project</li>
-</ol>
+<b>How to contribute</b></br><hr/>
 
+
+
+<b>Fork repo</b>
+
+	git clone https://github.com/MikeBruns/VirtualPunchCard.git
+
+<b>Install dependencies</b>
+
+<b>Import project into choosen IDE as a Java project</b>
+
+<b>Create a link between the local copy and original</b>
+
+	git remote add upstream https://github.com/MikeBruns/VirtualPunchCard.git
+
+<b>Pull from original repo before working on the code</b>
+
+	git pull upstream master
+
+<b>Make changes to files...</b>
+
+<b>Push changes to your forked repo</b>
+
+	git push orign master
+
+<b>Make a pull request to the original repo</b>
+<b>Celebrate!!!</b>
 
 <br/><br/>
 
