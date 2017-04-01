@@ -26,11 +26,14 @@ and managers to proctor employees work schedules.
 
 <b>Fork repo, package, and run</b>
 
-	git clone https://github.com/MikeBruns/VirtualPunchCard.git
+	git clone https://github.com/MikeBruns/VirtualPunchCard.git	
+</br>
 	
-	cd /VirtualPunchCard
+	cd /VirtualPunchCard	
+</br>
 	
-	mvn package
+	mvn package	
+</br>
 	
 	java -cp target/VirtualPunchCard-1.0-SNAPSHOT.jar com.VirtualPunchCard.app.Driver
 
