@@ -16,54 +16,56 @@ and managers to proctor employees work schedules.
 <b>Dependencies</b><hr/>
 <ul>
 <li>Java 8</li>
+<li>Maven 3 or greater</li>
 <li>sqlite3</li>
 <li>sqlite 3.16 library or greater</li>
 </ul>
-<br/>
-<b>How to contribute</b></br><hr/>
-
-
-
-<b>Fork repo, package, and run</b>
-
-	git clone https://github.com/MikeBruns/VirtualPunchCard.git	
-</br>
-	
-	cd /VirtualPunchCard	
-</br>
-	
-	mvn package	
-</br>
-	
-	java -cp target/VirtualPunchCard-1.0-SNAPSHOT.jar com.VirtualPunchCard.app.Driver
-
-<b>Install dependencies</b>
-
-<b>Import project into choosen IDE as a Java project</b>
-
-<b>Create a link between the local copy and original</b>
-
-	git remote add upstream https://github.com/MikeBruns/VirtualPunchCard.git
-
-<b>Pull from original repo before working on the code</b>
-
-	git pull upstream master
-
-<b>Make changes to files...</b>
-
-<b>Push changes to your forked repo</b>
-
-	git push orign master
-
-<b>Make a pull request to the original repo</b>
-<b>Celebrate!!!</b>
-
 <br/><br/>
 
 
 
-<b>Project Flow (in the works)</b>
-<hr/>
+<h2>How to contribute</h2>
+
+1. Fork repo and clone it
+
+	`git clone https://github.com/MikeBruns/VirtualPunchCard.git`
+
+2. Go into the project
+	
+	`cd /VirtualPunchCard`
+
+3. Package the project
+	
+	`mvn package`
+
+4. Run it
+
+	`java -cp target/VirtualPunchCard-1.0-SNAPSHOT.jar com.VirtualPunchCard.app.Driver`
+
+5. Install dependencies
+
+6. Import project into choosen IDE as a Java project
+
+7. Create a link between the local copy and original
+
+	`git remote add upstream https://github.com/MikeBruns/VirtualPunchCard.git`
+
+8. Pull from original repo before working on the code
+
+	`git pull upstream master`
+
+9. Create an issue in the issues tab or ask to be assigned an existing issue
+10. Make changes to files
+11. Push changes to your forked repo
+
+	`git push orign master`
+
+12. Make a pull request to the original repo
+13. Celebrate!!!
+
+
+
+<h2>Project Flow (in the works)</h2>
 Login page
 	
 	> Checks db for authentication
