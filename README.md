@@ -13,7 +13,7 @@ and managers to proctor employees work schedules.
 </ul>
 <br/>
 
-<b>Dependencies</b><hr/>
+<h2>Dependencies</h2>
 <ul>
 <li>Java 8</li>
 <li>Maven 3 or greater</li>
