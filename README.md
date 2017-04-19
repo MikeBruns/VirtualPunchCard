@@ -20,9 +20,7 @@ and managers to proctor employees work schedules.
 <li>sqlite3</li>
 <li>sqlite 3.16 library or greater</li>
 </ul>
-<br/><br/>
-
-
+<br/>
 
 <h2>How to contribute</h2>
 
@@ -63,7 +61,7 @@ and managers to proctor employees work schedules.
 12. Make a pull request to the original repo
 13. Celebrate!!!
 
-
+<br/>
 
 <h2>Project Flow (in the works)</h2>
 Login page
