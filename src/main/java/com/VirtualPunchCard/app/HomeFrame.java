@@ -9,11 +9,6 @@ import javax.swing.*;
  */
 public class HomeFrame extends JFrame {
 
-    public static void main(String[] args) {
-        HomeFrame freshFrame = new HomeFrame();
-    }
-
-
     JPanel panel = new JPanel();
 
     HomeFrame(){
