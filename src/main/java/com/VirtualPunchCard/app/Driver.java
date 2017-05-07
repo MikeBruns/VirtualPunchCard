@@ -78,7 +78,7 @@ public class Driver extends JFrame{
 
                 }
 
-                if(uNameInp.equals("admin")){
+                if(uNameInp.equals("admin1")){
                     uName = true;
                     if(uPassInp.equals("password")){
                         uPass = true;
