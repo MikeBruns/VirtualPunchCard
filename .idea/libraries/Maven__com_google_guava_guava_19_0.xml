@@ -2,6 +2,9 @@
   <library name="Maven: com.google.guava:guava:19.0">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/appframework-1.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/swing-layout-1.0.3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/swing-worker-1.1.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/19.0/guava-19.0-javadoc.jar!/" />
