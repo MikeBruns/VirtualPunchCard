@@ -1,4 +1,4 @@
-package com.VirtualPunchCard.app.Views;
+package com.VirtualPunchCard.app.Controllers;
 import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.text.SimpleDateFormat;

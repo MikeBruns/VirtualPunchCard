@@ -6,7 +6,7 @@
  * @authors Mike Buns & Odero Ajamu
 \\*********************************************************/
 
-package com.VirtualPunchCard.app;
+package com.VirtualPunchCard.app.Controllers;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

@@ -38,7 +38,7 @@ and managers to proctor employees work schedules.
 
 4. Run it
 
-	`java -cp target/VirtualPunchCard-1.0-SNAPSHOT.jar com.VirtualPunchCard.app.Driver`
+	`java -cp target/VirtualPunchCard-1.0-SNAPSHOT.jar com.VirtualPunchCard.app.Controllers.Driver`
 
 5. Install dependencies
 

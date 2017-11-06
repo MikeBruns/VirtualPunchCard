@@ -1,6 +1,5 @@
-package com.VirtualPunchCard.app.Models;
+package com.VirtualPunchCard.app.Controllers;
 
-import com.VirtualPunchCard.app.Models.Employee;
 import java.sql.Date;
 /**
  * Class describing a manager
@@ -11,7 +10,7 @@ public class Manager extends Employee {
     private int Emp_No;
     private int Dept_No;
 
-    public Manager(int Emp_No,Date dob, Date Hire_Date,String First_Name, String Last_Name,int manager_No, int manager_Lvl,  int dept_No ) {
+    public Manager(int Emp_No,String dob, String Hire_Date,String First_Name, String Last_Name,int manager_No, int manager_Lvl,  int dept_No ) {
 
         super(Emp_No,dob,Hire_Date,First_Name,Last_Name);
         Manager_No = manager_No;

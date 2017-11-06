@@ -1,4 +1,4 @@
-package com.VirtualPunchCard.app;
+package com.VirtualPunchCard.app.Controllers;
 
 import java.sql.*;
 

@@ -1,8 +1,6 @@
-package com.VirtualPunchCard.app;
+package com.VirtualPunchCard.app.Controllers;
 
-import com.VirtualPunchCard.app.Controllers.addEmployeeController;
-import com.VirtualPunchCard.app.Views.EmployeeView;
-import com.VirtualPunchCard.app.Models.Employee;
+import java.sql.Date;
 
 
 /**
@@ -14,10 +12,17 @@ public class MVCaddEmployee {
     public static void main(String[] args) {
 
         EmployeeView theView = new EmployeeView();
-        Employee theModel = new Employee();
+        String dob = "1995/09/18";
+        String hire = "2007/05/30";
+
+
+        String date = "2008-05-26";
+        String hdate = "2017-05-26";
+
+        Employee theModel = new Employee(123,date,hdate,"Jimmi","Nootrin");//add parameters
 
         addEmployeeController theController = new addEmployeeController(theView, theModel);
 
         theView.setVisible(true);
     }
-}
+}                               

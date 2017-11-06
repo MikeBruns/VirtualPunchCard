@@ -1,6 +1,4 @@
 package com.VirtualPunchCard.app.Controllers;
-import com.VirtualPunchCard.app.Views.EmployeeView;
-import com.VirtualPunchCard.app.Models.Employee;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 

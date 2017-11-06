@@ -1,4 +1,4 @@
-package com.VirtualPunchCard.app.Models;
+package com.VirtualPunchCard.app.Controllers;
 
 import java.sql.Date;
 
@@ -7,12 +7,12 @@ import java.sql.Date;
  */
 public class Employee {
     private int     Emp_No;
-    private Date    dob;
-    private Date    hireDate;
+    private String    dob;
+    private String    hireDate;
     private String  First_Name;
     private String  Last_Name;
 
-    public Employee(int Emp_No, Date dob, Date hireDate,
+    public Employee(int Emp_No, String dob, String hireDate,
                     String First_Name, String Last_Name) {
         this.Emp_No = Emp_No;
         this.dob = dob;
@@ -31,19 +31,19 @@ public class Employee {
         this.Emp_No = Emp_No;
     }
 
-    public Date getDob() {
+    public String getDob() {
         return dob;
     }
 
-    public void setDob(Date dob) {
+    public void setDob(String dob) {
         this.dob = dob;
     }
 
-    public Date getHireDate() {
+    public String getHireDate() {
         return hireDate;
     }
 
-    public void setHireDate(Date hireDate) {
+    public void setHireDate(String hireDate) {
         this.hireDate = hireDate;
     }
 

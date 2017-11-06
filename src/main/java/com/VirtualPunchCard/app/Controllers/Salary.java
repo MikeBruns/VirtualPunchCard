@@ -1,6 +1,4 @@
-package com.VirtualPunchCard.app.Models;
-
-import com.VirtualPunchCard.app.Models.Employee;
+package com.VirtualPunchCard.app.Controllers;
 
 import java.sql.Date;
 
@@ -9,7 +7,7 @@ import java.sql.Date;
  */
 public class Salary extends Employee {
 
-    public Salary(int employeeID, Date dob, Date hireDate, String firstName, String lastName) {
+    public Salary(int employeeID, String dob, String hireDate, String firstName, String lastName) {
         super(employeeID, dob, hireDate, firstName, lastName);
     }
 }
